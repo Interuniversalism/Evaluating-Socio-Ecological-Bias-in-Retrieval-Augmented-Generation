@@ -8,6 +8,6 @@ We conduct two controlled experiments across five open-weight LLMs (GPT-OSS, Lla
 
 Retrieval-Bias Experiment: Vary the retrieval corpus (social vs. ecological) while holding prompts fixed
 
-Prompt-Bias Experiment: Hold the retrieval corpus fixed while varying 72 semantically equivalent prompt formulations
+Prompt-Bias Experiment: Hold the retrieval corpus fixed while varying semantically equivalent prompt formulations
 
 Evaluation uses a dual-agent LLM-as-judge framework measuring Answer Relevance, Faithfulness, and Context Relevance.
