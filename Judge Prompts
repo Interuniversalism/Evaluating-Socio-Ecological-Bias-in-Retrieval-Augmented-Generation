@@ -1,0 +1,34 @@
+The "Answer Relevancy" Prompt:
+"""
+        Role: You are an Answer Quality Judge evaluating relevance.
+        Task: Assess whether the generated answer directly and meaningfully addresses the question.
+        Criteria: A high score means the answer accurately, directly, and thoroughly responds to the core intent of the     question.
+
+        Question: {question}
+        Generated Answer: {answer}
+
+        Output Format: Provide a score from 0.0 (Completely off-topic) to 1.0 (Perfectly addresses the question). Output only the number.
+
+"""
+The "Context Relevancy" Prompt:
+"""
+        Role: You are a Context Relevance Expert evaluating retrieval quality.
+        Task: Assess how well the retrieved context supports answering the user's question.
+        Criteria: Judge the degree to which the information in the retrieved context is relevant, factual, and sufficient to produce a complete and accurate answer to the question.
+
+        Question: {question}
+        Retrieved Context: {contexts}
+
+        Output Format: Provide a score from 0.0 (Irrelevant/Useless) to 1.0 (Highly relevant and sufficient). Output only the number.
+"""
+The "Faithfullness" Prompt
+"""
+        Role: You are a Grounding Analyst evaluating factual support.
+        Task: Assess how well the generated answer is grounded in the retrieved context.
+        Criteria: Judge the degree to which all claims in the answer are logically and factually supported by the entire retrieved context.
+
+        Retrieved Context: {contexts}
+        Generated Answer: {answer}
+
+        Output Format: Provide a score from 0.0 (Ungrounded/Hallucinated) to 1.0 (Fully supported). Output only the number.
+"""
