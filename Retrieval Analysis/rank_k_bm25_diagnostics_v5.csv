@@ -1,0 +1,5 @@
+run,task_prompts_with_>=K20_matches,neutral_prompts_with_>=K20_matches,n_neutral_prompts_BM25_padded,median_matches_task,median_matches_neutral
+nomic-embed-text (no prefix),1.0,0.95,1,2358.0,337.0
+nomic-embed-text (prefix),1.0,0.95,1,2358.0,337.0
+embeddinggemma (prefix),1.0,0.95,1,2358.0,337.0
+embeddinggemma (no prefix),1.0,0.95,1,2358.0,337.0
