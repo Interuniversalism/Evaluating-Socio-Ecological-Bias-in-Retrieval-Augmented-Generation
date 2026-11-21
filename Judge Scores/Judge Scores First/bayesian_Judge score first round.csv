@@ -52,7 +52,7 @@ answer_relevance,Retrieval-Bias,Qwen,Gemma,0.839,0.029,0.898,0.029,0.059,0.041,0
 answer_relevance,Prompt-Bias,DeepSeek-R1,Nomic,0.896,0.002,0.900,0.002,0.004,0.003,0.427,0.907,
 answer_relevance,Prompt-Bias,DeepSeek-R1,Gemma,0.897,0.001,0.900,0.001,0.003,0.002,-0.45,0.923,
 answer_relevance,Prompt-Bias,Llama 3.2,Nomic,0.768,0.032,0.792,0.032,0.024,0.045,0.743,0.703,
-answer_relevance,Prompt-Bias,Llama 3.2,Gemma,0.821,0.029,0.831,0.030,0.010,0.001,0.326,0.591
+answer_relevance,Prompt-Bias,Llama 3.2,Gemma,0.821,0.029,0.831,0.030,0.010,0.001,0.326,0.591,
 answer_relevance,Prompt-Bias,GPT-Oss,Nomic,0.900,0.000,0.900,0.000,-0.000,0.000,-0.002,0.495,
 answer_relevance,Prompt-Bias,GPT-Oss,Gemma,0.892,0.003,0.900,0.003,0.007,0.005,0.519,0.947,
 answer_relevance,Prompt-Bias,Mistral,Nomic,0.708,0.029,0.773,0.029,0.065,0.042,0.504,0.941,
