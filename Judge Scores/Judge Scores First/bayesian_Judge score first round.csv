@@ -1,6 +1,6 @@
 ﻿metric,experiment,generator,embedder,mu_social,sd_social,mu_eco,sd_eco,delta,sd_delta,cohens_d,p_delta_gt_0,note
 context_relevance,Retrieval-Bias,DeepSeek-R1,Nomic,0.401,0.034,0.507,0.037,0.105,0.051,0.661,0.979,
-context_relevance,Retrieval-Bias,DeepSeek-R1,Gemma,0.436,0.031,0.592,0.035,0.156,0.004,0.884,≈ 1.00
+context_relevance,Retrieval-Bias,DeepSeek-R1,Gemma,0.436,0.031,0.592,0.035,0.156,0.004,0.884,≈ 1.00,
 context_relevance,Retrieval-Bias,Llama 3.2,Nomic,0.402,0.032,0.481,0.034,0.079,0.047,0.532,0.954,
 context_relevance,Retrieval-Bias,Llama 3.2,Gemma,0.436,0.032,0.593,0.034,0.157,0.046,1.05,≈ 1.00,
 context_relevance,Retrieval-Bias,GPT-Oss,Nomic,0.398,0.040,0.482,0.040,0.083,0.056,0.489,0.930,
