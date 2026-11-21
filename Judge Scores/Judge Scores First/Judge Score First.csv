@@ -203,8 +203,8 @@ GPT-OSS,embeddinggemma,social,retrieval,17,0.63125,0.875,0.9
 GPT-OSS,embeddinggemma,social,retrieval,18,0.6000000000000001,0.8749999999999999,0.875
 GPT-OSS,embeddinggemma,social,retrieval,19,0.44375000000000003,0.9,0.9
 GPT-OSS,embeddinggemma,social,retrieval,20,0.56875,0.88125,0.9
-GPT-OSS,embeddinggemma,social,retrieval,21,0.275,0.6125,
-GPT-OSS,embeddinggemma,social,retrieval,22,0.13749999999999998,0.875,
+GPT-OSS,embeddinggemma,social,retrieval,21,0.275,0.6125,0.9
+GPT-OSS,embeddinggemma,social,retrieval,22,0.13749999999999998,0.875,0.9
 GPT-OSS,embeddinggemma,ecological,prompt,1,0.525,0.8624999999999999,0.9
 GPT-OSS,embeddinggemma,ecological,prompt,2,0.60625,0.8937499999999999,0.9
 GPT-OSS,embeddinggemma,ecological,prompt,3,0.46875,0.80625,0.9
