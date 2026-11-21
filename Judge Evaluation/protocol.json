@@ -1,0 +1,19 @@
+{
+  "version": "collabeval_chunk_wrapped_v1",
+  "source_sha256": "901bca9b35da31a41ab62ed1248b976ef0b32177e41f2010cb9ac51c6c27442e",
+  "JUDGES": {
+    "deepseek": "deepseek-r1",
+    "llama": "llama3.2"
+  },
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "num_ctx_default": 8192,
+  "temperature": 0.0,
+  "repeats": 1,
+  "outer_prompt_template": "\nQuestion: {question}\n\nContext:\n{context}\n\nCandidate Answer:\n{candidate}\n\nRubric:\n{rubric}\n\nONLY OUTPUT A SINGLE NUMBER BETWEEN 0 AND 1. NO EXPLANATION.\n",
+  "PROMPT_IS_RELEVANT": "Role: You are a Chunk Relevance Assessor.\nTask: Evaluate the individual relevance of the chunk to the user's question.\nCriteria: Judge how essential the information in the chunk is for producing a correct and complete answer to the question.\n\nQuestion: {question}\nRetrieved Chunk: {chunk}\n\nOutput Format: Provide a score from 0.0 (Irrelevant) to 1.0 (Highly essential). Output only the number.\n",
+  "PROMPT_IS_RELEVANT_chunk_answer": "Role: You are a Context Utility Validator.\nTask: Determine whether the retrieved chunk contributed meaningfully to the generated answer.\nCriteria: Score based on explicit factual or semantic overlap between the chunk and the answer.\n\nRetrieved Chunk: {chunk}\nGenerated Answer: {answer}\n\nOutput Format: Provide a score from 0.0 (No overlap/Not used) to 1.0 (Directly relevant and reflected in the answer). Output only the number.\n",
+  "PROMPT_RELEVANCY_SCORE": "Role: You are an Answer Quality Judge evaluating relevance.\nTask: Assess whether the generated answer directly and meaningfully addresses the question.\nCriteria: A high score means the answer accurately, directly, and thoroughly responds to the core intent of the question.\n\nQuestion: {question}\nGenerated Answer: {answer}\n\nOutput Format: Provide a score from 0.0 (Completely off-topic) to 1.0 (Perfectly addresses the question). Output only the number.\n"
+}

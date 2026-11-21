@@ -1,0 +1,16 @@
+{
+  "source_run_id": "",
+  "ollama_version": {
+    "version": "0.40.16"
+  },
+  "models": {
+    "deepseek": {
+      "name": "deepseek-r1:latest",
+      "digest": ""
+    },
+    "llama": {
+      "name": "llama3.2:latest",
+      "digest": ""
+    }
+  }
+}
